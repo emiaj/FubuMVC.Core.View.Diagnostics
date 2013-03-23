@@ -1,6 +1,5 @@
 ﻿using FubuMVC.Core.View.Diagnostics.Endpoints;
 using FubuMVC.Core.View.Diagnostics.Navigation;
-using FubuMVC.Diagnostics.Navigation;
 
 namespace FubuMVC.Core.View.Diagnostics
 {
@@ -9,7 +8,7 @@ namespace FubuMVC.Core.View.Diagnostics
         public void Configure(FubuRegistry registry)
         {
             registry.Policies.Add<ViewDiagnosticsMenu>();
-            registry.Actions.IncludeType<ViewDiagnosticsEndpoint>();
+            registry.Actions.IncludeType<ViewsEndpoint>();
         }
     }
 }
