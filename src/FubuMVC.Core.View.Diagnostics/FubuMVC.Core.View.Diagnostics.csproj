@@ -96,6 +96,7 @@
     <Compile Include="Endpoints\ViewsEndpoint.cs" />
     <Compile Include="Navigation\ViewDiagnosticsKeys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\LevenshteinDistance.cs" />
     <Compile Include="ViewDiagnosticsExtension.cs" />
     <Compile Include="Navigation\ViewDiagnosticsMenu.cs" />
   </ItemGroup>

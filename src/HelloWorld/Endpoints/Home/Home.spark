@@ -1,0 +1,17 @@
+﻿<viewdata model="HelloWorld.Endpoints.Home.HomeInput" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>
+        Home</h1>
+    <ul>
+        <li>${this.LinkTo[[HelloWorld.Endpoints.Duplicated.DuplicatedInput]]().Text("Duplicated")}</li>
+        <li>${this.LinkTo[[HelloWorld.Endpoints.Mistyped.Foo.MistypedModel1]]().Text("Mistyped1")}</li>
+        <li>${this.LinkTo[[HelloWorld.Endpoints.Mistyped.Bar.MistypedModel2]]().Text("Mistyped2")}</li>
+        <li>${this.LinkTo[[HelloWorld.Endpoints.Mistyped.Baz.MistypedModel3]]().Text("Mistyped3")}</li>
+    </ul>
+</body>
+</html>
