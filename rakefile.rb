@@ -82,6 +82,7 @@ end
 desc "Compiles the app"
 task :compile => [:restore_if_missing, :clean, :version] do
   bottles("assembly-pak src/FubuMVC.Core.View.Diagnostics -p FubuMVC.Core.View.Diagnostics.csproj")
+  	FileUtils.rm_rf "src/HelloWorld/fubu-content/"
 
   MSBuildRunner.compile :compilemode => COMPILE_TARGET, :solutionfile => 'src/FubuMVC.Core.View.Diagnostics.sln', :clrversion => CLR_TOOLS_VERSION
 

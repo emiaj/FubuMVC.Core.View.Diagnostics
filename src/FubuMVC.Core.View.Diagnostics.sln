@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__build", "__build", "{12A9
 		..\rakefile.rb = ..\rakefile.rb
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.Core.View.Diagnostics.Tests", "FubuMVC.Core.View.Diagnostics.Tests\FubuMVC.Core.View.Diagnostics.Tests.csproj", "{18B1DB37-E5BE-4DF4-8697-B6869F1220FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{1AE01DFC-D552-4D5E-9213-3612B5281B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AE01DFC-D552-4D5E-9213-3612B5281B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AE01DFC-D552-4D5E-9213-3612B5281B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B1DB37-E5BE-4DF4-8697-B6869F1220FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B1DB37-E5BE-4DF4-8697-B6869F1220FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B1DB37-E5BE-4DF4-8697-B6869F1220FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B1DB37-E5BE-4DF4-8697-B6869F1220FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

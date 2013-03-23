@@ -1,2 +1,11 @@
-﻿<viewdata model="FubuMVC.Core.View.Diagnostics.Endpoints.ViewDiagnosticsInput"/>
-<h1>Views</h1>
+﻿<viewdata model="FubuMVC.Core.View.Diagnostics.Endpoints.ViewDiagnosticsInput" />
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3 well">
+            <p>
+                Views</p>
+        </div>
+        <div class="span9">
+        </div>
+    </div>
+</div>
