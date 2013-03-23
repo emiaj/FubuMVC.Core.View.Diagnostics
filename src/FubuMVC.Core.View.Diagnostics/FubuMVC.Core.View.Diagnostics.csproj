@@ -92,11 +92,16 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="ViewProblem.cs" />
+    <Compile Include="ViewProblemStoreCache.cs" />
     <None Include="Endpoints\Views.spark" />
     <Compile Include="Endpoints\ViewsEndpoint.cs" />
+    <Compile Include="IViewProblemStoreCache.cs" />
     <Compile Include="Navigation\ViewDiagnosticsKeys.cs" />
+    <Compile Include="ProblemGatherer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\LevenshteinDistance.cs" />
+    <Compile Include="TemplateBindingItem.cs" />
     <Compile Include="ViewDiagnosticsExtension.cs" />
     <Compile Include="Navigation\ViewDiagnosticsMenu.cs" />
   </ItemGroup>
